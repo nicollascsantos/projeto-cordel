@@ -32,14 +32,14 @@ header a:hover, footer a:hover {
     text-decoration: underline;
 }
 
+section {
+    padding: 10vh 0px 10vh 30px;
+    line-height: 3rem;
+}
+
 section.normal {
     background-color: #fff;
     color:#000;
-}
-
-section {
-    padding: 10vh 0px 10vh 30px;
-    line-height: 2rem;
 }
 
 section.imagem {
