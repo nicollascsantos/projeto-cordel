@@ -22,10 +22,6 @@ header > h1 {
     font-variant: small-caps;
 }
 
-header > p {
-
-}
-
 header a, footer a {
     color: #fff;
     text-decoration: none;
@@ -44,7 +40,6 @@ section.normal {
 section {
     padding: 10vh 0px 10vh 30px;
     line-height: 2rem;
-
 }
 
 section.imagem {
