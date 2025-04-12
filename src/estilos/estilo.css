@@ -49,14 +49,14 @@ header > p {
     font-size: 3vw;
 }
 
-header a, footer a {
+a {
     color: #fff;
-    text-decoration: none;
+    text-decoration: underline ;
     font-weight: bolder;
 }
 
-header a:hover, footer a:hover {
-    text-decoration: underline;
+a:hover {
+    color: var(--cinza-claro);
 }
 
 /* SEÇÕES */
