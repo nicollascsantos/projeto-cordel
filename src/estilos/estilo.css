@@ -15,7 +15,7 @@
 
     --cinza-claro: darkgray;
     --cinza-medio: #333333;
-    --cinza-escuro: #00000041;
+    --cinza-escuro: #0000007b;
 }
 
 * {
@@ -62,14 +62,14 @@ header a:hover, footer a:hover {
 /* SEÇÕES */
 
 section {
-    padding: 10vh 30px;
+    padding: 10vh 40px;
     line-height: 3rem;
     font-family: var(--fonte3);
     font-size: 1.5rem;
 }
 
 section > p {
-    margin-bottom: 20px;
+    margin-bottom: 2rem;
 }
 
 section.normal {
@@ -80,12 +80,24 @@ section.normal {
 section.imagem {
     background-color: var(--cinza-medio);
     color: #fff;
+    box-shadow: inset 0px 0px 6px 4px var(--cinza-medio);
 }
 
 section.imagem > p {
     display: inline-block;
     padding: 15px;
     background-color: var(--cinza-escuro);
+    text-shadow: 2px 2px 1px #000;
+}
+
+section#img01 {
+    background: url(../imagens/background001.jpg) no-repeat center fixed;
+    background-size: cover;
+}
+
+section#img02 {
+    background: url(../imagens/background002.jpg) no-repeat center fixed;
+    background-size: cover;
 }
 
 /* RODAPÉ */
