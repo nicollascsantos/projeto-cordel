@@ -46,7 +46,7 @@ header > h1 {
 }
 
 header > p {
-    font-size: 3vw;
+    font-size: 4vw;
 }
 
 a {
@@ -107,4 +107,5 @@ footer {
     color: #fff;
     padding: 10px;
     text-align: center;
+    line-height: 1.5rem;
 }
