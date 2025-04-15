@@ -72,7 +72,7 @@ section {
     line-height: 2em;
     font-family: var(--fonte3);
     width: 100%;
-    font-size: 3.8vw;
+    font-size: 200%;
 }
 
 section > p {
