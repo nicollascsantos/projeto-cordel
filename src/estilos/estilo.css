@@ -13,7 +13,7 @@
 
     /* CORES DE FUNDO */
 
-    --cinza-claro: darkgray;
+    --cinza-claro: #d7d7d7;
     --cinza-medio: #333333;
     --cinza-escuro: #0000007b;
 }
@@ -26,7 +26,7 @@
 
 html, body {
     height: 100vh;
-    background-color: var(--cinza-claro);
+    background-color: #d7d7d7;
     font-family: var(--fonte1);
 }
 
@@ -55,12 +55,23 @@ a:hover {
     color: var(--cinza-claro);
 }
 
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 800px;
+    border: 2px solid red;
+    margin: auto;
+}
+
 /* SEÇÕES */
 
 section {
     padding: 10vh 40px;
     line-height: 2em;
     font-family: var(--fonte3);
+    width: 100%;
     font-size: 3.8vw;
 }
 
@@ -104,4 +115,6 @@ footer {
     padding: 10px;
     text-align: center;
     line-height: 2em;
+    max-width: 800px;
+    margin: auto;
 }
