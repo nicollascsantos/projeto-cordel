@@ -25,7 +25,7 @@
 }
 
 html, body {
-    height: 100dvh;
+    height: 100vh;
     background-color: var(--cinza-claro);
     font-family: var(--fonte1);
 }
@@ -37,22 +37,22 @@ header {
     color: #fff;
     text-align: center;
     padding: 50px 0px;
-    font-family: var(--fonte2);
 }
 
 header > h1 {
+    font-family: var(--fonte2);
     font-variant: small-caps;
-    font-size: 10dvw;
+    font-size: 10vw;
 }
 
 header > p {
-    font-size: 4dvw;
+    font-size: 1.3vw;
 }
 
 a {
     color: #fff;
-    text-decoration: underline ;
-    font-weight: bolder;
+    text-decoration: underline;
+    font-weight: bold;
 }
 
 a:hover {
@@ -63,13 +63,13 @@ a:hover {
 
 section {
     padding: 10vh 40px;
-    line-height: 3rem;
+    line-height: 2em;
     font-family: var(--fonte3);
-    font-size: 1.5rem;
+    font-size: 3.5vw;
 }
 
 section > p {
-    margin-bottom: 2rem;
+    margin-bottom: 2em;
 }
 
 section.normal {
@@ -107,5 +107,5 @@ footer {
     color: #fff;
     padding: 10px;
     text-align: center;
-    line-height: 2rem;
+    line-height: 2em;
 }
