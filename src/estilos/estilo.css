@@ -45,13 +45,9 @@ header > h1 {
     font-size: 10vw;
 }
 
-header > p {
-    font-size: 1.3vw;
-}
-
 a {
     color: #fff;
-    text-decoration: underline;
+    text-decoration: none;
     font-weight: bold;
 }
 
